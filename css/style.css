@@ -23,7 +23,7 @@ h1 {
     text-align: center;
 }
 
-form {
+.task-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -63,16 +63,16 @@ ul {
     list-style: none;
 }
 
-li {
+.task-item {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-li label {
+.task-item label {
     font-weight: normal;
 }
