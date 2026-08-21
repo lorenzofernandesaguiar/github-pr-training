@@ -16,10 +16,12 @@ main {
     padding: 30px;
     background-color: #fff;
     border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     margin-top: 0;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -59,6 +61,7 @@ section {
 }
 
 ul {
+    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -68,9 +71,10 @@ ul {
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
-    padding: 12px;
+    padding: 14px 16px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 6px;
+    background-color: #fafafa;
 }
 
 .task-item label {
